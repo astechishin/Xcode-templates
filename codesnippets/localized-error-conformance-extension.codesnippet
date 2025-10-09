@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>exerrloc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>extension &lt;# Error Type Name #&gt;: LocalizedError {
+
+    public var errorDescription: String? {
+        switch self {
+        }
+    }
+
+
+    public var recoverySuggestion: String? {
+        switch self {
+        }
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B73A5A99-CF1D-454E-A53D-D803C5DC43EC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Extending a custom error type to adopt `LocalizedError`</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>LocalizedError Conformance extension</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

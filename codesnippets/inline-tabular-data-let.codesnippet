@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>td-let</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let &lt;#variable-name#&gt; = row[&lt;#column-name#&gt;] as? String</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6877a834-3b42-4337-af2e-79aa95db56bd</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Quick mechanism for defining a variable from tabular data CSV import (on a row)</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Tabular Data let</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

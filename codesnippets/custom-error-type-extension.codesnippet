@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>exerror</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>extension &lt;#TYPE_NAME#&gt; {
+
+    enum Error: Swift.Error {
+        case &lt;# Error Name #&gt;
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9F98A3A7-DFE8-4217-869B-DFEC828940B3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Extension of a type with an `Error` enumeration that conforms to `Swift.Error`</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Custom Error Type Extension</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

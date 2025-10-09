@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SupportsSwiftPackage</key>
+	<true/>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Load a JSON file into a serialized version to load the Preview database</string>
+	<key>Summary</key>
+	<string>Serialize the SwiftData models as JSON.</string>
+	<key>DefaultCompletionName</key>
+	<string>Serializable</string>
+	<key>Platforms</key>
+	<array/>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+</dict>
+</plist>

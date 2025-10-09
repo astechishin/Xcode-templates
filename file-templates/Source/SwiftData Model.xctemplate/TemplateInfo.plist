@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SupportsSwiftPackage</key>
+	<true/>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A SwiftData Model file preconfigured with my standard parts</string>
+	<key>Summary</key>
+	<string>An initial SwiftData Model file.</string>
+	<key>DefaultCompletionName</key>
+	<string>model</string>
+	<key>Platforms</key>
+	<array/>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+</dict>
+</plist>
