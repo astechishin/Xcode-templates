@@ -48,4 +48,4 @@ $ make
 #### Testing
 - **Better Swift Testing**: Create a new Swift Testing file for a unit test, has the header, is a struct and uses the @Suite to give a 'Shoulda' flavour
 - **Swift Testing Setup**: A file to be added to the Test directory and target that contains helpers for Swift Testing, including an in-memory version of the SwiftData database (uses 'Base SwiftData Model list' from above)
-- **XML Validate for Swift Testing**:
+- **XML Validate for Swift Testing**: A test function helper. Compares the contents of a file (that must be added to the Test target bundle) to a String and identifies if there are any mismatches. Does not actually process XML but is a REALLY large string comparer to highlights the small window with the difference (if any).
