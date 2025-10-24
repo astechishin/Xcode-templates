@@ -12,4 +12,11 @@ class ___FILEBASENAMEASIDENTIFIER___ {
         try! ModelContainer(for: Schema(Base.modelList),
                             configurations: ModelConfiguration(isStoredInMemoryOnly: true))
     }
+
+    static func validateLoadFile(_ fileName: String, bundle: Bundle? = nil, file: StaticString=#filePath, line: UInt=#line) throws -> URL {
+        let fileBundle = bundle ?? Self.bundle
+        let urlIsh = fileBundle.url(forResource: fileName, withExtension: "")
+        let url = try #require(urlIsh, "Failed to find test file: \(fileName)")
+        return url
+    }
 }
