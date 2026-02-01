@@ -3,6 +3,7 @@
 import Testing
 @testable import ___PROJECTNAME:identifier___
 
+@MainActor
 @Suite("___FILEBASENAMEASIDENTIFIER___ should")
 struct ___FILEBASENAMEASIDENTIFIER___ {
     @Test
